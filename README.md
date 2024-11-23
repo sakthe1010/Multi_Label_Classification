@@ -59,7 +59,6 @@ This project was part of a data challenge to classify medical records into multi
 ## Results
 
 - The final model is an ensemble of various simple neural network models which produced
-a score of around **0.475** and the logreg model.
-11
+a score of around 0.475 with the logreg model.
 - The final score we got is **0.490** with a public score of 0.489 placing in the **sixth position
 overall**
