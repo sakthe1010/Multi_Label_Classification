@@ -2,6 +2,7 @@
 - DAL Data Challenge Problem.
 - Overall Position - 6/135.
 - Link to get the dataset - https://www.kaggle.com/competitions/da5401-2024-ml-challenge/data
+- For more details, check the DAL report uploaded. 
   
 # Multi-Label Classification for ICD10 Code Prediction
 
