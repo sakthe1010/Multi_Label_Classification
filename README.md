@@ -1,8 +1,9 @@
 # Multi_Label_Classification
-DAL Data Challenge Problem
+DAL Data Challenge Problem. Position - 6/135
+Link to get the dataset - https://www.kaggle.com/competitions/da5401-2024-ml-challenge/data
 # Multi-Label Classification for ICD10 Code Prediction
 
-This project tackles a multi-label classification problem to predict ICD10 codes from textual embeddings using advanced machine learning techniques.
+This project tackles a multi-label classification problem to predict ICD10 codes from textual embeddings using advanced machine learning techniques. 
 
 ---
 
@@ -60,4 +61,4 @@ This project was part of a data challenge to classify medical records into multi
 - The final model is an ensemble of various simple neural network models which produced
 a score of around 0.475 with the logreg model.
 - The final score we got is **0.490** with a public score of 0.489 placing in the **sixth position
-overall**
+overall** 
