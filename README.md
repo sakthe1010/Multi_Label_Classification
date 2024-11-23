@@ -44,9 +44,8 @@ This project was part of a data challenge to classify medical records into multi
 
 ### 2. Model Development
 - **Logistic Regression:** Used as a baseline.
-- **XGBoost:** Tuned hyperparameters for tree-based modeling.
-- **Neural Networks:** Built a multi-layer perceptron using TensorFlow.
-
+- **Neural Networks:** Developed and fine-tuned a neural network model using TensorFlow, optimizing hyperparameters to achieve the best performance.
+  
 ### 3. Ensemble Method
 - Combined predictions from all models to reduce false negatives.
 - Weighted averaging based on individual model performance.
