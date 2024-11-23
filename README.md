@@ -8,8 +8,8 @@ This project tackles a multi-label classification problem to predict ICD10 codes
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
+2. [Dataset](#dataset)
+3. [Approach](#approach)
 4. [Results](#results)
 
 ---
@@ -23,13 +23,43 @@ This project was part of a data challenge to classify medical records into multi
 
 ---
 
-## Features
-- Preprocessing pipeline for multi-label datasets.
-- Model training using state-of-the-art techniques:
-  - Logistic Regression
-  - XGBoost
-  - Neural Networks (TensorFlow).
-- Efficient batch-wise evaluation for large datasets.
-- Ensemble methods for better prediction reliability.
+## Dataset
+
+**Training Data:**
+- **Size:** 200,000 samples
+- **Features:** 1,024 embeddings per sample
+- **Labels:** Multi-hot encoded vectors (1,400 ICD10 codes)
+
+**Evaluation Data:**
+- 99,500 samples for testing.
+- Average micro-F2 as the primary evaluation metric.
 
 ---
+
+## Approach
+
+### 1. Data Preprocessing
+- Handled missing values and normalized features.
+- Transformed label vectors into sparse matrices for efficiency.
+
+### 2. Model Development
+- **Logistic Regression:** Used as a baseline.
+- **XGBoost:** Tuned hyperparameters for tree-based modeling.
+- **Neural Networks:** Built a multi-layer perceptron using TensorFlow.
+
+### 3. Ensemble Method
+- Combined predictions from all models to reduce false negatives.
+- Weighted averaging based on individual model performance.
+
+### 4. Evaluation
+- Metrics: Precision, recall, F1-score, and micro-F2.
+- Cross-validation to avoid overfitting.
+
+---
+## Results
+
+- The final model is an ensemble of various simple neural network models which produced
+a score of around **0.475** and the logreg model.
+11
+- The final score we got is **0.490** with a public score of 0.489 placing in the **sixth position
+overall**
