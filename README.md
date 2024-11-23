@@ -1,5 +1,5 @@
 # Multi_Label_Classification
-- DAL Data Challenge Problem.
+- Kaggle Data Challenge Problem.
 - Overall Position - 6/135.
 - Link to get the dataset - https://www.kaggle.com/competitions/da5401-2024-ml-challenge/data
 - For more details, check the DAL report uploaded. 
